@@ -1,0 +1,149 @@
+*{
+    font-family: 'Open Sans', sans-serif; ; 
+ }
+ html, 
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #3925e9;
+      }
+
+    nav {
+    display: flex;
+    background-color: #f7f7f7;
+    /**align-items: center;**/
+    }
+
+    /**nav div{
+    height: 30px;
+    flex-grow: 4;
+    padding: 10px;
+    }**/
+    
+    /**nav div img {
+    height: 100%;
+    }**/
+
+    nav div1 img{
+      height: 30px;
+      flex-grow: 4;
+      padding: 10px;
+    }
+    nav div2{
+      position: absolute;
+      height: 30px;
+      flex-grow: 4;
+      padding: 10px; 
+      left: 600px;
+    }
+    nav div3 img{
+      position: absolute;
+      height: 30px;
+      flex-grow: 4;
+      padding: 10px;
+      right: 150px ;
+    }
+    
+    
+    nav div.search-container > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 80%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+        }
+    
+    nav div.search-container > button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 20%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    }
+        
+    section {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    }
+
+    .flex-container {
+        display: flex;
+        background-color: rgb(245, 246, 248);
+        flex-direction: column;
+        height: 768px;
+        width: 1136px;
+        align-self: center;
+       
+      }
+
+      /** CONTAINER 1 **/
+      
+    .flex-container > div1 {
+        padding: 10px;
+        margin: 10px;
+        background-color: #ffffff;
+        width: 450px;
+        flex-grow: 2.5;
+        align-self: center;
+
+      }
+      
+      .flex-container > div1 img{
+        width: 30px;
+      }
+
+      .flex-container > div1 div_date{
+        /**position: absolute;**/
+        font-size: 10px;
+        /**right: 580px;**/
+        margin-left: 300px;
+      }
+
+      .flex-container > div1 div_post_img img{
+        width: 420px;
+        height: 210px;
+        margin-bottom: -150px;
+        align-items: center;
+      }
+
+      .flex-container > div1 div_post{
+        position: absolute;
+        top: 370px;
+        margin-left: -425px;
+      }
+
+      .flex-container > div1 div_like img{
+        width: 50px;
+        margin-bottom: -225px;
+        margin-left: -425px;
+      }
+
+
+
+    /** CONTAINER 2 **/
+    .flex-container > div2 {
+      padding: 10px;
+      margin: 10px;
+      background-color: #9c3c3c;
+      width: 450px;
+      flex-grow: 1;
+      align-self: center;
+    }
+
+
+    /** CONTAINER 3 **/
+
+    .flex-container > div3 {
+      padding: 10px;
+      margin: 10px;
+      background-color: #9c3c3c;
+      width: 450px;
+      flex-grow: 2.5;
+      align-self: center;
+
+    }
