@@ -12,6 +12,10 @@
     display: flex;
     background-color: #f7f7f7;
     }
+    .WebContainer{
+      width: 100%;
+      height: auto;
+  }
 
 /**HEAD**/
     nav div1 img{
