@@ -68,8 +68,11 @@
         display: flex;
         background-color: rgb(245, 246, 248);
         flex-direction: column;
-        height: 768px;
-        width: 1136px;
+        height: 100% ;
+
+       /** height: 768px;**/
+       width: 100%;
+        /**width: 1136px;**/
         align-self: center;
        
       }
@@ -167,7 +170,7 @@
       margin: 10px;
       background-color: #9c3c3c;
       width: 450px;
-      flex-grow: 2.5;
+      flex-grow: 1;
       align-self: center;
 
     }
