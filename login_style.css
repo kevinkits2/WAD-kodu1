@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: EB Garamond;
 }
 
 body {
@@ -43,15 +43,59 @@ div.picture-box {
     width: 70px;
 }
 
-a:hover {
+p > a:hover {
     text-decoration: underline;
 }
 
-a {
+p > a {
     color: blue;
     text-decoration: none;
 }
 
-a:visited {
+p > a:visited {
     color: purple;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=text] {
+    display: block;
+    padding: 9px 15px;
+    margin: auto;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    display: block;
+    padding: 9px 15px;
+    margin: 8px auto;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+div.login-container {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+input[type=submit] {
+    font-size: 15px;
+    background-color: #659BDF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #416ea6;
+    padding: 9px 19px;
 }
