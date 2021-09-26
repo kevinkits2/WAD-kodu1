@@ -5,7 +5,7 @@
  body {
      margin: 0;
      padding: 0;
-     background-color: #3925e9;
+     background-color: DodgerBlue;
       }
 
     nav {
@@ -15,57 +15,57 @@
 
 /**HEAD**/
     nav div1 img{
-      height: 30px;
-      flex-grow: 4;
-      padding: 10px;
+        height: 30px;
+        flex-grow: 4;
+        padding: 20px;
     }
 
     nav div2{
-      height: 30px;
-      flex-grow: 4;
-      padding: 10px; 
-      margin-left: 600px;
+        display:block;
+        height: 30px;
+        padding: 20px;
+        margin-left: 40%;
+        flex-grow: 4;
     }
     nav div3 img{
-      height: 30px;
-      flex-grow: 4;
-      padding: 10px;
-      margin-right: 150px;
+        height: 30px;
+        flex-grow: 4;
+        padding: 20px;
     }
     
     
     nav div.search-container > input {
-    box-sizing: border-box;
-    height: 30px;
-    width: 80%;
-    margin: 0;
-    padding: 5px;
-    border: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        height: 30px;
+        width: 80%;
+        margin: 0;
+        padding: 5px;
+        border: 1px solid #e0e0e0;
         }
     
     nav div.search-container > button {
-    box-sizing: border-box;
-    height: 30px;
-    width: 20%;
-    margin: 0;
-    padding: 5px;
-    border: 1px solid #e0e0e0;
-    cursor: pointer;
-    background-color: #e0e0e0;
+        box-sizing: border-box;
+        height: 30px;
+        width: 20%;
+        margin: 0;
+        padding: 5px;
+        border: 1px solid #e0e0e0;
+        cursor: pointer;
+        background-color: #e0e0e0;
+        border-radius: 4px;
     }
         
     section {
-    display: flex;
-    width: 80%;
-    margin: 30px auto;
+        width: 50%;
+        margin: 2% auto;
     }
 
     .flex-container {
         display: flex;
         background-color: rgb(245, 246, 248);
         flex-direction: column;
-        height: 768px;
-        width: 1136px;
+        height: 100%;
+        width: 100%;
         align-self: center;
        
       }
@@ -79,12 +79,6 @@
         text-shadow: darkolivegreen;
       }
 
-
-      /**div ~ p {
-        background-color: yellow;
-      }**/
-
-
       /** CONTAINER 1 **/
       p::first-line {
         font-weight: 300;
@@ -92,78 +86,80 @@
       }
       
     .flex-container > div1 {
-        padding: 10px;
-        margin: 10px;
+        display:block;
+        padding: 2%;
+        margin: 5%;
         background-color: #ffffff;
-        width: 450px;
-        flex-grow: 0;
+        width: 70%;
         align-self: center;
 
       }
 
       
       .flex-container > div1 img{
-        width: 30px;
+        width: 10%;
       }
 
       p.date{
-        font-size: 10px;
+        font-size: 0.7em;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantare;
+          margin-left: 85%;
+          margin-top: -2%;
       }
-      #date1{
-        margin-left: 350px;
-        margin-top: -20px;
-      }
-
       .flex-container > div1 div_post_img img{
-        width: 450px;
-        height: 210px;
-        margin-bottom: -150px;
+        width: 100%;
+        height: 50%;
       }
 
-      p.post{
+      p.post1{
         font-family: 'Courier New', Courier, monospace;
+          font-size: 1em;
       }
-      #post1{
-        margin-top: 150px;
-      }
+
      
       .flex-container > div1 div_like img{
-        width: 35px;
+        width: 10%;
+
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /** CONTAINER 2 **/
     .flex-container > div2 {
-      padding: 10px;
-      margin: 10px;
-      background-color: #9c3c3c;
-      width: 450px;
-      flex-grow: 1;
-      align-self: center;
+        display:block;
+        padding: 2%;
+        margin: 5%;
+        background-color: #ffffff;
+        width: 70%;
+        align-self: center;
+    }
+    .flex-container > div2 img{
+        width: 10%;
+    }
+    p.post2{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        padding-top: 2%;
     }
 
 
     /** CONTAINER 3 **/
 
     .flex-container > div3 {
-      padding: 10px;
-      margin: 10px;
-      background-color: #9c3c3c;
-      width: 450px;
-      flex-grow: 2.5;
-      align-self: center;
-
+        display:block;
+        padding: 2%;
+        margin: 5%;
+        background-color: #ffffff;
+        width: 70%;
+        align-self: center;
     }
+    .flex-container > div3 img{
+        width: 10%;
+    }
+    p.post3{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        padding-top: 2%;
+    }
+.flex-container > div3 div_post_img img{
+    width: 100%;
+    height: 50%;
+}
