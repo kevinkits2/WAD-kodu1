@@ -22,6 +22,7 @@ body {
 
 div.picture-box ~ p {
     text-align: center;
+    font-size: 23px;
 }
 
 div.picture-box + h1 {
@@ -30,6 +31,7 @@ div.picture-box + h1 {
 
 div.login-box p.link {
     text-align: center;
+    font-size: 23px;
 }
 
 #login-picture {
@@ -62,7 +64,7 @@ a {
 
 input[type=text] {
     display: block;
-    padding: 9px 15px;
+    padding: 2% 3%;
     margin: auto;
     width: 40%;
     border: 1px solid #ccc;
@@ -71,8 +73,8 @@ input[type=text] {
 
 input[type=password] {
     display: block;
-    padding: 9px 15px;
-    margin: 8px auto;
+    padding: 2% 3%;
+    margin: 2% auto;
     width: 40%;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -86,16 +88,19 @@ div.login-container {
 }
 
 input[type=submit] {
+    display: block;
+    margin: auto;
     font-size: 15px;
     background-color: #659BDF;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 7% 9%;
+
 }
 
 input[type=submit]:hover {
     background-color: #416ea6;
-    padding: 9px 19px;
+    padding: 6% 8%;
 }
