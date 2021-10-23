@@ -1,0 +1,101 @@
+[
+ {
+    "id" : 1,
+    "userId": 1,
+    "profilePic" : null,
+    "createTime" : "Sep 10 10:14",
+    "authorName" : "Jaan Must",
+    "postPic" : null,
+    "postText" : "random text1+ dasds"
+ },
+
+ {
+    "id" : 2,
+    "userId": 1,
+    "profilePic" : null,
+    "createTime" : "Sep 30 08:08",
+    "authorName" : "Jaan Must",
+    "postPic" : null,
+    "postText" : "random text2"
+ },
+
+ {
+    "id" : 3,
+    "userId": 2,
+    "profilePic" : null,
+    "createTime" : "Oct 23 09:08",
+    "authorName" : "Taavi Tamm",
+    "postPic" : null,
+    "postText" : "random text3"
+ },
+
+ {
+    "id" : 4,
+    "userId": 2,
+    "profilePic" : null,
+    "createTime" : "Oct 01 21:59",
+    "authorName" : "Taavi Tamm",
+    "postPic" : null,
+    "postText" : "random text4"
+ },
+ 
+{
+    "id" : 5,
+    "userId": 3,
+    "profilePic" : null,
+    "createTime" : "Sep 10 10:14",
+    "authorName" : "Jaan Kask",
+    "postPic" : null,
+    "postText" : "random text5"
+ },
+
+ {
+    "id" : 6,
+    "userId": 3,
+    "profilePic" : null,
+    "createTime" : "Sep 10 10:14",
+    "authorName" : "Jaan Kask",
+    "postPic" : null,
+    "postText" : "random text6"
+ },
+
+ {
+    "id" : 7,
+    "userId": 4,
+    "profilePic" : null,
+    "createTime" : "Oct 23 09:08",
+    "authorName" : "Kaur Liiv",
+    "postPic" : null,
+    "postText" : "random text7"
+ },
+
+ {
+    "id" : 8,
+    "userId": 4,
+    "profilePic" : null,
+    "createTime" : "Oct 01 21:59",
+    "authorName" : "Kaur Liiv",
+    "postPic" : null,
+    "postText" : "random text8"
+ },
+
+ {
+    "id" : 9,
+    "userId": 5,
+    "profilePic" : null,
+    "createTime" : "Sep 10 10:14",
+    "authorName" : "Mari Maasikas",
+    "postPic" : null,
+    "postText" : "random text9"
+ },
+
+ {
+    "id" : 10,
+    "userId": 5,
+    "profilePic" : null,
+    "createTime" : "Sep 30 08:08",
+    "authorName" : "Mari Maasikas",
+    "postPic" : null,
+    "postText" : "random text10"
+ }
+]
