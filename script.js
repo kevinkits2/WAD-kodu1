@@ -16,31 +16,37 @@
     //})
 //});
 
-$(function() {
-    
-    $.get("posts.json", function(json_obj){
-       for (obj of json_obj) {
+window.addEventListener("load", pageFullyLoaded, false);
 
-           let div = $('<div class= "postsf">');
-           let createTime = $('<p class = "date">').text(obj.createTime);
-           div.append(createTime);
+function pageFullyLoaded() {
+    $(function() {
 
-           let authorName = $('<p>').text(obj.authorName);
-           div.append(authorName);
+        $.get(URL = "https://api.npoint.io/638f88e48a61ec1a8050", function(json_obj){
+            for (obj of json_obj) {
 
-           if (!(obj.postPic == null)) {
-               var image = $('<img>').attr("src", obj.postPic);
-               div.append(image);
-           }
+                let div = $('<div class= "postsf">');
+                let createTime = $('<p class = "date">').text(obj.createTime);
+                div.append(createTime);
 
-           let body = $('<p class = "tere">').text(obj.postText);
-           div.append(body);
+                let authorName = $('<p>').text(obj.authorName);
+                div.append(authorName);
 
-           $('div.flex-container').append(div)
-       }
+                if (!(obj.postPic == null)) {
+                    var image = $('<img>').attr("src", obj.postPic);
+                    div.append(image);
+                }
 
-   })
-});
+                let body = $('<p class = "tere">').text(obj.postText);
+                div.append(body);
+
+                $('div.flex-container').append(div)
+            }
+
+        })
+    });
+}
+
+
 function dropDownMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
