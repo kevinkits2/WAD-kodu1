@@ -23,14 +23,17 @@ $(function() {
 
            let div = $('<div class= "postsf">');
            let createTime = $('<p class = "date">').text(obj.createTime);
-           let authorName = $('<p>').text(obj.authorName);
-           let image = $('<img>').attr("src", obj.postPic);
-           let body = $('<p class = "tere">').text(obj.postText);
-          
+           div.append(createTime);
 
-           div.append(createTime) ;
+           let authorName = $('<p>').text(obj.authorName);
            div.append(authorName);
-           div.append(image);
+
+           if (!(obj.postPic == null)) {
+               var image = $('<img>').attr("src", obj.postPic);
+               div.append(image);
+           }
+
+           let body = $('<p class = "tere">').text(obj.postText);
            div.append(body);
 
            $('div.flex-container').append(div)
