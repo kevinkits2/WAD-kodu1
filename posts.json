@@ -2,100 +2,100 @@
  {
     "id" : 1,
     "userId": 1,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 10 10:14",
     "authorName" : "Jaan Must",
     "postPic" : "pic/pic1.jpg",
-    "postText" : "random text1+ dasds"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 2,
     "userId": 1,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 30 08:08",
     "authorName" : "Jaan Must",
     "postPic" : null,
-    "postText" : "random text2"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 3,
     "userId": 2,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Oct 23 09:08",
     "authorName" : "Taavi Tamm",
-    "postPic" : null,
-    "postText" : "random text3"
+    "postPic" : "pic/pic1.jpg",
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 4,
     "userId": 2,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Oct 01 21:59",
     "authorName" : "Taavi Tamm",
     "postPic" : null,
-    "postText" : "random text4"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
  
 {
     "id" : 5,
     "userId": 3,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 10 10:14",
     "authorName" : "Jaan Kask",
-    "postPic" : null,
-    "postText" : "random text5"
+    "postPic" : "pic/pic1.jpg",
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 6,
     "userId": 3,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 10 10:14",
     "authorName" : "Jaan Kask",
     "postPic" : null,
-    "postText" : "random text6"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 7,
     "userId": 4,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Oct 23 09:08",
     "authorName" : "Kaur Liiv",
-    "postPic" : null,
-    "postText" : "random text7"
+    "postPic" : "pic/pic1.jpg",
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 8,
     "userId": 4,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Oct 01 21:59",
     "authorName" : "Kaur Liiv",
     "postPic" : null,
-    "postText" : "random text8"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 9,
     "userId": 5,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 10 10:14",
     "authorName" : "Mari Maasikas",
-    "postPic" : null,
-    "postText" : "random text9"
+    "postPic" : "pic/pic1.jpg",
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  },
 
  {
     "id" : 10,
     "userId": 5,
-    "profilePic" : null,
+    "profilePic" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1024px-Circle-icons-profile.svg.png",
     "createTime" : "Sep 30 08:08",
     "authorName" : "Mari Maasikas",
     "postPic" : null,
-    "postText" : "random text10"
+    "postText" : "which weighs more, a pound of feather or a pound of bricks?"
  }
 ]
