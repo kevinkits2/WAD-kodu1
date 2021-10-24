@@ -23,16 +23,17 @@ $(function() {
 
            let div = $('<div class= "postsf">');
            let createTime = $('<p class = "date">').text(obj.createTime);
-           let body = $('<p class = "tere">').text(obj.postText);
            let authorName = $('<p>').text(obj.authorName);
+           let image = $('<img>').attr("src", obj.postPic);
+           let body = $('<p class = "tere">').text(obj.postText);
           
 
-           div.append(createTime) 
+           div.append(createTime) ;
+           div.append(authorName);
+           div.append(image);
            div.append(body);
-           div.append(authorName)
-           div.append("<img id='theImg' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/1200px-Facebook_Thumb_icon.svg.png'/>")
 
-           $('section').append(div)
+           $('div.flex-container').append(div)
        }
 
    })
