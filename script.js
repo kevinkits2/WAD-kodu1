@@ -1,4 +1,8 @@
-/*function pageFullyLoaded() {
+
+
+window.addEventListener("load", pageFullyLoaded, false);
+
+function pageFullyLoaded() {
     $(function() {
 
         $.get("posts.json", function(json_obj){
@@ -6,10 +10,12 @@
 
                 let div = $('<div class= "postsf">');
 
+                let div1 = $('<div1 class= "imageprof">');
                 if (!(obj.profilePic == null)) {
-                    var imageprof = $('<img>').attr("src", obj.profilePic);
-                    div.append(imageprof);
+                    var imageprof = $('<img class = "imageprof">').attr("src", obj.profilePic);
+                    div1.append(imageprof);
                 }
+                div.append(div1)
                 
         
             
@@ -30,18 +36,22 @@
 
                 let body = $('<p class = "tere">').text(obj.postText);
                 div.append(body);
-                
-                var imagelike = $('<img>').attr("src", "pic/like.png");
-                    div.append(imagelike);
+
+
+                let div2 = $('<div2 class= "imagelike">');
+                var imagelike = $('<img class = "imagelike">').attr("src", "pic/like.png");
+                    div2.append(imagelike);
+                div.append(div2)
+
 
                 $('div.flex-container').append(div)
             }
 
         })
     });
-}*/
+}
 
-window.addEventListener("load", pageFullyLoaded, false);
+/*window.addEventListener("load", pageFullyLoaded, false);
 
 function pageFullyLoaded() {
     $(function() {
@@ -51,10 +61,12 @@ function pageFullyLoaded() {
 
                 let div = $('<div class= "postsf">');
 
+                let div1 = $('<div1 class= "imageprof">');
                 if (!(obj.profilePic == null)) {
-                    var imageprof = $('<img>').attr("src", obj.profilePic);
-                    div.append(imageprof);
+                    var imageprof = $('<img class = "imageprof">').attr("src", obj.profilePic);
+                    div1.append(imageprof);
                 }
+                div.append(div1)
                 
         
             
@@ -76,15 +88,19 @@ function pageFullyLoaded() {
                 let body = $('<p class = "tere">').text(obj.postText);
                 div.append(body);
 
-                var imagelike = $('<img>').attr("src", "pic/like.png");
-                    div.append(imagelike);
+
+                let div2 = $('<div2 class= "imagelike">');
+                var imagelike = $('<img class = "imagelike">').attr("src", "pic/like.png");
+                    div2.append(imagelike);
+                div.append(div2)
+
 
                 $('div.flex-container').append(div)
             }
 
         })
     });
-}
+}*/
 
 
 function dropDownMenu() {
